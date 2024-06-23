@@ -2,7 +2,6 @@ import hashlib
 from tkinter import *
 from tkinter import messagebox
 from PIL import Image, ImageTk
-import hashlib
 
 window = Tk()
 window.title("MD5 Hash Cracking")
@@ -67,9 +66,6 @@ decrypt_button.place(x=160,y=230)
 
 result_label = Label(text="Result", font=FONT)
 result_label.place(x=200-27.5,y=280)
-result_label.update()
-print(result_label.winfo_width())
-print(result_label.winfo_height())
 
 result_entry = Entry(width=50)
 result_entry.place(x=200-152,y=310)
